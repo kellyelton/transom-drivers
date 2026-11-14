@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "wintun-0.14.1",
+  "name": "Wintun 0.14.1 (layer 3 TUN adapter driver, inside wintun.dll)",
+  "version": "0.14.1",
+  "date": "2021-10-17",
+  "origin": "vendor",
+  "verification": "team",
+  "tested": [
+    {
+      "machine": "QEMU",
+      "transom": "1.217",
+      "capabilities": [
+        "tunnel-adapter",
+        "tailscale"
+      ],
+      "note": "Tailscale 1.104's copy of wintun.dll (same hash as bin/amd64/wintun.dll here) creates its adapter and carries a ping through the ring; Tailscale reaches its sign-in (T8)."
+    }
+  ],
+  "open_source": true,
+  "repo": "https://git.zx2c4.com/wintun",
+  "license": "Wintun Prebuilt Binaries License (WireGuard LLC)",
+  "license_url": "https://www.wintun.net/",
+  "license_sha256": "183adac21e7d96c508c8fd34d394b7b6708bc81564ad1bad61ab66143a008cd2",
+  "use": "permitted",
+  "redistribution": "conditional",
+  "hardware": [
+    {
+      "id": "WINTUN",
+      "inf": "(inside wintun.dll resources)",
+      "section": "Wintun"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.wintun.net/builds/wintun-0.14.1.zip",
+      "sha256": "07c256185d6ee3652e09fa55c0b673e2624b565e02c4b9091c79ca7d2f24ef51",
+      "size": 750540
+    }
+  ],
+  "extract": {
+    "type": "zip",
+    "subfolder": "wintun",
+    "kept": [
+      {
+        "path": "bin/amd64/wintun.dll",
+        "sha256": "e5da8447dc2c320edc0fc52fa01885c103de8c118481f683643cacc3220dafce"
+      },
+      {
+        "path": "LICENSE.txt",
+        "sha256": "183adac21e7d96c508c8fd34d394b7b6708bc81564ad1bad61ab66143a008cd2"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "bin/amd64/wintun.dll",
+      "sha256": "e5da8447dc2c320edc0fc52fa01885c103de8c118481f683643cacc3220dafce",
+      "size": 427552
+    },
+    {
+      "path": "bin/arm/wintun.dll",
+      "sha256": "daad267411ecdc70a0535e274d2c3e9da3d0084bdac7662cb8424dd4a031b4d9",
+      "size": 364552
+    },
+    {
+      "path": "bin/arm64/wintun.dll",
+      "sha256": "f7ba89005544be9d85231a9e0d5f23b2d15b3311667e2dad0debd344918a3f80",
+      "size": 222488
+    },
+    {
+      "path": "bin/x86/wintun.dll",
+      "sha256": "d694fa46ab4cfebcb2632d094c7aa97278eef2f8052438621766d863ae98a931",
+      "size": 550928
+    },
+    {
+      "path": "include/wintun.h",
+      "sha256": "510a5984fbf73efd21a61ada60edfe05e1a38a77c8c47f6d62e0ab1cdbdd460f",
+      "size": 10362
+    },
+    {
+      "path": "LICENSE.txt",
+      "sha256": "183adac21e7d96c508c8fd34d394b7b6708bc81564ad1bad61ab66143a008cd2",
+      "size": 5431
+    },
+    {
+      "path": "README.md",
+      "sha256": "558d828fe4b2d64cc33ab79deaeea883516852af85facbb4e5af5f7672504163",
+      "size": 13916
+    }
+  ],
+  "stats": {},
+  "notes": "There is no INF or .sys file to ship: wintun.dll carries wintun.sys and its INF as resources and installs them when it creates an adapter. The source is dual-licensed GPL-2.0 / MIT, but the prebuilt binaries (this download) are under a proprietary license: use is allowed; redistribution only alongside software that uses the DLL through the permitted API (wintun.h), otherwise with WireGuard LLC's written consent. date is the download's build date (the embedded INF's DriverVer was not read). The hardware id is Wintun's adapter id, not parsed from a file."
+}

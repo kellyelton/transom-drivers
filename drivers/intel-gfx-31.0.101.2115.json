@@ -1,0 +1,1787 @@
+{
+  "schema_version": 1,
+  "id": "intel-gfx-31.0.101.2115",
+  "name": "Intel Graphics driver 31.0.101.2115 (6th-10th Gen, DCH)",
+  "version": "31.0.101.2115",
+  "date": "2022-11-16",
+  "origin": "vendor",
+  "verification": "team",
+  "tested": [
+    {
+      "machine": "Lenovo Yoga 900 (Intel HD 520)",
+      "transom": "1.382",
+      "capabilities": [
+        "display"
+      ]
+    },
+    {
+      "machine": "Lenovo Yoga 900 (Intel HD 520)",
+      "transom": "1.391",
+      "capabilities": [
+        "d3d11"
+      ]
+    }
+  ],
+  "open_source": false,
+  "license": "Intel Graphics Drivers Software License Agreement (January 2020)",
+  "license_url": "https://www.intel.com/content/www/us/en/download/762755/intel-6th-gen-processor-graphics-windows.html",
+  "license_sha256": "36bd9785c82651801b99f68935fd5a0ef5c157473fbf3eb3a2d6d2796d12c84f",
+  "use": "unresolved",
+  "redistribution": "conditional",
+  "hardware": [
+    {
+      "id": "HDAUDIO\\FUNC_01&VEN_8086&DEV_2809&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.6.2"
+    },
+    {
+      "id": "HDAUDIO\\FUNC_01&VEN_8086&DEV_280A&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.6.2"
+    },
+    {
+      "id": "HDAUDIO\\FUNC_01&VEN_8086&DEV_280B&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.6.2"
+    },
+    {
+      "id": "HDAUDIO\\FUNC_01&VEN_8086&DEV_280C&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.6.2"
+    },
+    {
+      "id": "HDAUDIO\\FUNC_01&VEN_8086&DEV_280D&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.6.2"
+    },
+    {
+      "id": "HDAUDIO\\FUNC_01&VEN_8086&DEV_280F&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.6.2"
+    },
+    {
+      "id": "HDAUDIO\\FUNC_01&VEN_8086&DEV_2811&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.10.0...18362"
+    },
+    {
+      "id": "HDAUDIO\\FUNC_01&VEN_8086&DEV_2811&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.10.0...18900"
+    },
+    {
+      "id": "HDAUDIO\\FUNC_01&VEN_8086&DEV_2812&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.10.0...17763"
+    },
+    {
+      "id": "HDAUDIO\\FUNC_01&VEN_8086&DEV_2815&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.10.0...17763"
+    },
+    {
+      "id": "HDAUDIO\\FUNC_01&VEN_8086&DEV_2816&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.10.0...17763"
+    },
+    {
+      "id": "HDAUDIO\\FUNC_01&VEN_8086&DEV_281A&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...18362"
+    },
+    {
+      "id": "HDAUDIO\\FUNC_01&VEN_8086&DEV_281B&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.10.0...17763"
+    },
+    {
+      "id": "HDAUDIO\\FUNC_01&VEN_8086&DEV_281B&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...18362"
+    },
+    {
+      "id": "HDAUDIO\\SGPC_FUNC_01&VEN_8086&DEV_2811&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.10.0...18900"
+    },
+    {
+      "id": "HDAUDIO\\SGPC_FUNC_01&VEN_8086&DEV_281A&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...19041"
+    },
+    {
+      "id": "HDAUDIO\\SGPC_FUNC_01&VEN_8086&DEV_281A&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...19586"
+    },
+    {
+      "id": "HDAUDIO\\SGPC_FUNC_01&VEN_8086&DEV_281B&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...19041"
+    },
+    {
+      "id": "HDAUDIO\\SGPC_FUNC_01&VEN_8086&DEV_281B&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...19586"
+    },
+    {
+      "id": "HDAUDIO\\SUBFUNC_01&VEN_8086&DEV_281A&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...18362"
+    },
+    {
+      "id": "HDAUDIO\\SUBFUNC_01&VEN_8086&DEV_281A&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...19041"
+    },
+    {
+      "id": "HDAUDIO\\SUBFUNC_01&VEN_8086&DEV_281A&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...19586"
+    },
+    {
+      "id": "HDAUDIO\\SUBFUNC_01&VEN_8086&DEV_281B&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...18362"
+    },
+    {
+      "id": "HDAUDIO\\SUBFUNC_01&VEN_8086&DEV_281B&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...19041"
+    },
+    {
+      "id": "HDAUDIO\\SUBFUNC_01&VEN_8086&DEV_281B&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...19586"
+    },
+    {
+      "id": "INTELAUDIO\\FUNC_01&VEN_8086&DEV_2809&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.6.2"
+    },
+    {
+      "id": "INTELAUDIO\\FUNC_01&VEN_8086&DEV_280A&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.6.2"
+    },
+    {
+      "id": "INTELAUDIO\\FUNC_01&VEN_8086&DEV_280B&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.6.2"
+    },
+    {
+      "id": "INTELAUDIO\\FUNC_01&VEN_8086&DEV_280C&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.6.2"
+    },
+    {
+      "id": "INTELAUDIO\\FUNC_01&VEN_8086&DEV_280D&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.6.2"
+    },
+    {
+      "id": "INTELAUDIO\\FUNC_01&VEN_8086&DEV_280F&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.6.2"
+    },
+    {
+      "id": "INTELAUDIO\\FUNC_01&VEN_8086&DEV_2811&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.10.0...18362"
+    },
+    {
+      "id": "INTELAUDIO\\FUNC_01&VEN_8086&DEV_2811&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.10.0...18900"
+    },
+    {
+      "id": "INTELAUDIO\\FUNC_01&VEN_8086&DEV_2812&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.10.0...17763"
+    },
+    {
+      "id": "INTELAUDIO\\FUNC_01&VEN_8086&DEV_2815&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.10.0...17763"
+    },
+    {
+      "id": "INTELAUDIO\\FUNC_01&VEN_8086&DEV_2816&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.10.0...17763"
+    },
+    {
+      "id": "INTELAUDIO\\FUNC_01&VEN_8086&DEV_281A&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...18362"
+    },
+    {
+      "id": "INTELAUDIO\\FUNC_01&VEN_8086&DEV_281B&SUBSYS_80860101",
+      "inf": "IntcDAud.inf",
+      "section": "Intel.NTAMD64.10.0...17763"
+    },
+    {
+      "id": "INTELAUDIO\\FUNC_01&VEN_8086&DEV_281B&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...18362"
+    },
+    {
+      "id": "INTELAUDIO\\SGPC_FUNC_01&VEN_8086&DEV_281A&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...19041"
+    },
+    {
+      "id": "INTELAUDIO\\SGPC_FUNC_01&VEN_8086&DEV_281A&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...19586"
+    },
+    {
+      "id": "INTELAUDIO\\SGPC_FUNC_01&VEN_8086&DEV_281B&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...19041"
+    },
+    {
+      "id": "INTELAUDIO\\SGPC_FUNC_01&VEN_8086&DEV_281B&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...19586"
+    },
+    {
+      "id": "INTELAUDIO\\SUBFUNC_01&VEN_8086&DEV_281A&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...18362"
+    },
+    {
+      "id": "INTELAUDIO\\SUBFUNC_01&VEN_8086&DEV_281A&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...19041"
+    },
+    {
+      "id": "INTELAUDIO\\SUBFUNC_01&VEN_8086&DEV_281A&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...19586"
+    },
+    {
+      "id": "INTELAUDIO\\SUBFUNC_01&VEN_8086&DEV_281B&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...18362"
+    },
+    {
+      "id": "INTELAUDIO\\SUBFUNC_01&VEN_8086&DEV_281B&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...19041"
+    },
+    {
+      "id": "INTELAUDIO\\SUBFUNC_01&VEN_8086&DEV_281B&SUBSYS_80860101",
+      "inf": "MSHdaDac.inf",
+      "section": "IntelGfx.NTAMD64.10.0...19586"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_06C8",
+      "inf": "HdBusExt.inf",
+      "section": "IntelGfx.NTAMD64.10.0...17704"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_06C8",
+      "inf": "HdBusExt.inf",
+      "section": "IntelGfx.NTAMD64.10.0...18362"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_1902",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_1906",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_190B",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_1912",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_1916",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_191B",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_191D",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_191E",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_1921",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_1923",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_1926",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_1927",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_192B",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_192D",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_193A",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_193B",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_193D",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_3184",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_3185",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_3E90",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_3E91",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_3E92",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_3E93",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_3E94",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_3E96",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_3E98",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_3E99",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_3E9A",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_3E9B",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_3E9C",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_3EA0",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_3EA1",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_3EA5",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_3EA6",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_3EA8",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_3EA9",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_4555",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_4571",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_4B55",
+      "inf": "HdBusExt.inf",
+      "section": "IntelGfx.NTAMD64.10.0...17704"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_4B55",
+      "inf": "HdBusExt.inf",
+      "section": "IntelGfx.NTAMD64.10.0...18362"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_4B58",
+      "inf": "HdBusExt.inf",
+      "section": "IntelGfx.NTAMD64.10.0...17704"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_4B58",
+      "inf": "HdBusExt.inf",
+      "section": "IntelGfx.NTAMD64.10.0...18362"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_4DC8",
+      "inf": "HdBusExt.inf",
+      "section": "IntelGfx.NTAMD64.10.0...18362"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_4E55",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_4E61",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_4E71",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_5902",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_5906",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_590B",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_5912",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_5916",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_5917",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_591B",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_591C",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_591D",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_591E",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_5921",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_5926",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_5927",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_5A84",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_5A85",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_87C0",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_87CA",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_8A51",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_8A52",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_8A53",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_8A54",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_8A56",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_8A58",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_8A5A",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_8A5C",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_9840",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_9841",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_98C8",
+      "inf": "HdBusExt.inf",
+      "section": "IntelGfx.NTAMD64.10.0...18362"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_9B21",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_9B41",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_9BA4",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_9BA8",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_9BAA",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_9BAC",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_9BC4",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_9BC5",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_9BC6",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_9BC8",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_9BCA",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_9BCC",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_9BE6",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_9BF6",
+      "inf": "iigd_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_9D71",
+      "inf": "HdBusExt.inf",
+      "section": "IntelGfx.NTAMD64.10.0...17704"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_9DC8",
+      "inf": "HdBusExt.inf",
+      "section": "IntelGfx.NTAMD64.10.0...17704"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_A171",
+      "inf": "HdBusExt.inf",
+      "section": "IntelGfx.NTAMD64.10.0...17704"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_A2F0",
+      "inf": "HdBusExt.inf",
+      "section": "IntelGfx.NTAMD64.10.0...17704"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_A348",
+      "inf": "HdBusExt.inf",
+      "section": "IntelGfx.NTAMD64.10.0...17704"
+    },
+    {
+      "id": "SWC\\101.2115_VEN8086_GFXUI",
+      "inf": "cui_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "SWC\\101.2115_VEN8086_GFXUI_APP_YANGRA",
+      "inf": "cui_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "SWC\\101.2115_VEN8086_GFXUI_YANGRA",
+      "inf": "cui_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    },
+    {
+      "id": "SWC\\101.2115_VEN8086_IGCC",
+      "inf": "igcc_dch.inf",
+      "section": "IntelGfx.NTamd64.10.0...16225"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://downloadmirror.intel.com/764512/gfx_win_101.2115.zip",
+      "sha256": "6f055541b3421db3527bf70bc21d13d5a6b26579e21ca454a66db957bcbfbc9a",
+      "size": 521046942
+    }
+  ],
+  "extract": {
+    "type": "zip",
+    "subfolder": "Graphics",
+    "kept": [
+      {
+        "path": "iigd_dch.inf",
+        "sha256": "4331e25e87e61d57d971fa642b6232f76d16eda5b2d1205cc7c75c9d173b88a8"
+      },
+      {
+        "path": "igdlh.cat",
+        "sha256": "232235953547c79a7f40d6b02544f47f9dee57988ebd8f7e7649d4bee8405fea"
+      },
+      {
+        "path": "iglhxs64.vp",
+        "sha256": "d4cd39b91b4609f5238702ccce69490570efbf310a1452dbfeda78f73379d905"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "acxdac.cat",
+      "sha256": "03d7c04ac9c79bad66eec5a45296cf2c178205398ee207544c0ee17be6992b15",
+      "size": 27628
+    },
+    {
+      "path": "AGS.dl_",
+      "sha256": "667716e9fa6383ff9eb215f99aa8d5d16100629ae080ea44d5f59aa246c852e4",
+      "size": 28308
+    },
+    {
+      "path": "AGSOfflinePackage.zip",
+      "sha256": "f58400ff2902a81b27863ac49930c34c55115d1e0513cc88adbfb6c74d9ff779",
+      "size": 642768
+    },
+    {
+      "path": "c_32.cpa",
+      "sha256": "0d738eef8aeb8dc5db54ac978d0eef1f919b1680a0c46d9d92c5a191fc108bf9",
+      "size": 1361159
+    },
+    {
+      "path": "c_64.cpa",
+      "sha256": "ca10a7c40f2a7b67bf394a6f64d5c55f3d8b5edda7fe7e5e9614b26b9e59caa0",
+      "size": 1376256
+    },
+    {
+      "path": "clangFEWrapper.dl_",
+      "sha256": "dce6941cabb272afa8f97f68a4e97bbe24a27ba73ab5b1b42802a30c0cdc5726",
+      "size": 13845149
+    },
+    {
+      "path": "clangFEWrapper32.dl_",
+      "sha256": "9e294c7d8b9c1a264be7fc590abefe0e592c27ff4ba9c6a9dfd553e6e54551ad",
+      "size": 11197834
+    },
+    {
+      "path": "ColorImageEnhancement.wmv",
+      "sha256": "df8dbd54a1328cc79dd14d8b3f485ffd738a8a4ddab85432de36e10f17744a7c",
+      "size": 375173
+    },
+    {
+      "path": "ControlLib.dl_",
+      "sha256": "ccedaffda48e4fc9be14fc44ffc26dd960147a6da0ca71413655db406f7e7973",
+      "size": 108842
+    },
+    {
+      "path": "ControlLib32.dl_",
+      "sha256": "1c5bd805c2d5a061c75ace79d388a7545f48c0d27b3a2cb4344189dfab2a5dcc",
+      "size": 90868
+    },
+    {
+      "path": "cp_resources.bin",
+      "sha256": "b2983f4b36255eb6b8e93f94ff3f61b8fae62cccfa4d24cedba751913c7385b5",
+      "size": 2572396
+    },
+    {
+      "path": "cpa_32.vp",
+      "sha256": "8e4d3a81252ee997af919733b5926c6cf8d75ebca5251b93afd0aeecb2c32e94",
+      "size": 1125
+    },
+    {
+      "path": "cpa_64.vp",
+      "sha256": "864f1547c6ed2d3d62f0b2a52884bb7974bdbdec7dd2a247511890f5093760a2",
+      "size": 1125
+    },
+    {
+      "path": "cui_dch.inf",
+      "sha256": "f0ca62ebe960678428f7af03dc48f8f0e05a65110928e19014ff1a7cb4546493",
+      "size": 40558
+    },
+    {
+      "path": "dev_32.vp",
+      "sha256": "f195543e7102f5ddce1a4e2ce36b768c977ce2aef1c6cfcbcc2a27e5f19d74fe",
+      "size": 57143
+    },
+    {
+      "path": "dev_64.vp",
+      "sha256": "832ad3995dae30fab564ff32d80beda39c06aa1613b4d78529d038f93f5c8c88",
+      "size": 56359
+    },
+    {
+      "path": "DisplayAudio/10.26/intcdaud.cat",
+      "sha256": "f135b50cb30ee30818c6ab3edd757924ba2d9f25a70ca6e2534bb7f851bbb123",
+      "size": 34003
+    },
+    {
+      "path": "DisplayAudio/10.26/IntcDAud.inf",
+      "sha256": "986cc00ce2974f39ff50506980b81657a18ccbb91fac40215a5f2c081e466181",
+      "size": 5154030
+    },
+    {
+      "path": "DisplayAudio/10.26/IntcDAud.sy_",
+      "sha256": "c4fd2e37b013106648efb454dfcb6175f382ead01ba14794b81b88094807a7db",
+      "size": 297939
+    },
+    {
+      "path": "DisplayAudio/10.27/intcdaud.cat",
+      "sha256": "88f04457c1db804cab75c4324c8d596c53277b68ac272090ee1f0ff4395ad3ad",
+      "size": 31371
+    },
+    {
+      "path": "DisplayAudio/10.27/IntcDAud.inf",
+      "sha256": "c0cacaaccdd26e1cb745c2727b4572b37d883750e0c8e5ff8a1b71b44513c6bb",
+      "size": 5153530
+    },
+    {
+      "path": "DisplayAudio/10.27/IntcDAud.sy_",
+      "sha256": "93f99101c9575e0386e5f871a1ba80732c0b471768448014d9b6c7a6130667e6",
+      "size": 163533
+    },
+    {
+      "path": "DisplayAudio/11.1/intcdaud.cat",
+      "sha256": "6d35d1f4a0ee887ec468c3e6cefc1869edcb602eb901edfe5037823e8912bd48",
+      "size": 31483
+    },
+    {
+      "path": "DisplayAudio/11.1/IntcDAud.inf",
+      "sha256": "9b8bd3200e8481681e0e1e9eccda65cf4e79f79979c88811782bb137672aeef0",
+      "size": 5153028
+    },
+    {
+      "path": "DisplayAudio/11.1/IntcDAud.sy_",
+      "sha256": "437da107d1a2cc29ba9aa12a647ebf55acfad2014553b9f7feeb4e5b073eaf22",
+      "size": 168590
+    },
+    {
+      "path": "DisplayAudio/11.2/intcdaud.cat",
+      "sha256": "1a856de6116dbba5ba3cde3dc8ecf0586d1cb28c443b2719c65ee637ebe90019",
+      "size": 30979
+    },
+    {
+      "path": "DisplayAudio/11.2/IntcDAud.inf",
+      "sha256": "d7083fe5b5d82390353b2df945178cd873302ae295d06caae7999d61fba85fd1",
+      "size": 5156036
+    },
+    {
+      "path": "DisplayAudio/11.2/IntcDAud.sy_",
+      "sha256": "a13e65881551140718af306ff2d4d15ec33ed2713d86235e686731756d7e4ad2",
+      "size": 144924
+    },
+    {
+      "path": "DnnlPlugin.dl_",
+      "sha256": "407032c2b5a121a734967e0b3a4c49dd3d1be8ab7d7af39c8f305bf967036214",
+      "size": 3384054
+    },
+    {
+      "path": "FilmModeDetection.wmv",
+      "sha256": "78b03d3037adac75f92734ccd20298deb4846cd4c6c4917de128865ff0d07c68",
+      "size": 641530
+    },
+    {
+      "path": "GfxDownloadWrapper.exe",
+      "sha256": "d81e92e4b575ea34154833f3265beecef1c5d978fb638be4a01fa13c2d5849d5",
+      "size": 158768
+    },
+    {
+      "path": "h265e_32.vp",
+      "sha256": "2e0d15f10f39501d88569158b304c8f4ff5fbe78967183adf659dade03575fc0",
+      "size": 77061
+    },
+    {
+      "path": "h265e_64.vp",
+      "sha256": "d4cdce296159a67aa405f0cdfd529633af56624701999f59fd3c5bc0b8ff0efc",
+      "size": 13815
+    },
+    {
+      "path": "hdbusext.cat",
+      "sha256": "591595be5b606de80831ad4185020ab67c27fc3411b2e737aa56b398a778a3a3",
+      "size": 27625
+    },
+    {
+      "path": "HdBusExt.inf",
+      "sha256": "46cf265ef8e20dc8e35b18383a331afa341896f292dec924c993ae12233e1dd4",
+      "size": 5600
+    },
+    {
+      "path": "he_32.vp",
+      "sha256": "205cf7f1e285a903ebf0d8de0a345e417a32c7d9dfdc3a518afffe5b42cf3318",
+      "size": 75457
+    },
+    {
+      "path": "he_64.vp",
+      "sha256": "34f1e6a8f34548d166f3f72a5d27d4a3285a5a67dd63bb93c11042307bf02683",
+      "size": 13227
+    },
+    {
+      "path": "ig11icd32.dl_",
+      "sha256": "8a8f8b5372eb8a79337bff9a23107b925d7e43e3107b6f92e2b28712108b647f",
+      "size": 4733987
+    },
+    {
+      "path": "ig11icd64.dl_",
+      "sha256": "23fd8c501eb54010503455768af288d5c8cabfa2fb87f5db57010e3985dc1497",
+      "size": 5609222
+    },
+    {
+      "path": "ig9icd32.dl_",
+      "sha256": "650948dc79e64cd205bdd8cf2a497d62989be0244c152562608314943c1b821b",
+      "size": 4621328
+    },
+    {
+      "path": "ig9icd64.dl_",
+      "sha256": "b03943ee21ae5c70a0246880e74d77bb7de9b4e1cd83e94c61db1385e437217d",
+      "size": 5483839
+    },
+    {
+      "path": "iga32.dl_",
+      "sha256": "32dfe44937668fb6b9e9e48480381f9ff7857c3d4b808b195018979e49f60a1e",
+      "size": 601115
+    },
+    {
+      "path": "iga64.dl_",
+      "sha256": "be363137e37e7320073fb34ab4b4547bf0016436f09a3695ee3bfc215c1b7e71",
+      "size": 683474
+    },
+    {
+      "path": "igc32.dl_",
+      "sha256": "324eb0901fd9e8409939000a2c0e650b9e6f5834a074b3beae017e775bba384b",
+      "size": 18200716
+    },
+    {
+      "path": "igc64.dl_",
+      "sha256": "98a607317d84591f096aafe528da7583ea63cc65b457f1eb23d8a06e4ca19a32",
+      "size": 21415096
+    },
+    {
+      "path": "igcc_dch.inf",
+      "sha256": "82ef2740f2101a7199004de74413d2659cd3c734a61a1d172d18a87372c2e4cb",
+      "size": 5942
+    },
+    {
+      "path": "igd10iumd32.dl_",
+      "sha256": "6906a7d5067874e254a6e8532ac5681df08bf1ad55afe8e8822c1c8793a4f857",
+      "size": 206064
+    },
+    {
+      "path": "igd10iumd64.dl_",
+      "sha256": "acf9eebe6a002f3340f892a4bcecf1791605dfe10757fef0e5498d865f82162d",
+      "size": 215250
+    },
+    {
+      "path": "igd10mg32.dl_",
+      "sha256": "7ec805e257a12d54291540959f3b275bf15d5949ed4e4c7d97e3a2bba071255a",
+      "size": 132050
+    },
+    {
+      "path": "igd10mg64.dl_",
+      "sha256": "20a923d7a005105ae985d5755d124daa706826aeb33c1d809b0791aa77410240",
+      "size": 153939
+    },
+    {
+      "path": "igd10um32gen11.dl_",
+      "sha256": "0c39ef93b6fa6ee51d04c55349b23fa4f9daec40401be7f073b178b3449ba860",
+      "size": 2532188
+    },
+    {
+      "path": "igd10um64gen11.dl_",
+      "sha256": "8fc7036790fd619db276783201a6dd43ab5fe2a3fb8786be0fd4bc167597cbd8",
+      "size": 2593813
+    },
+    {
+      "path": "igd11dxva32.dl_",
+      "sha256": "1ef85fb0d37746e190aa19d98544d8009639fe5d407ee05d5bde02fd6b9fd80e",
+      "size": 16633711
+    },
+    {
+      "path": "igd11dxva64.dl_",
+      "sha256": "329b58dc91d455550d86d3fd8105b4195e43ef462bce738b7a0e231b554f32fd",
+      "size": 17171729
+    },
+    {
+      "path": "igd12dxva32.dl_",
+      "sha256": "a16098cf076ac03f688d8da506fe2e60af7aaf97e3e2bd9d5632cb5fbe662a03",
+      "size": 16624755
+    },
+    {
+      "path": "igd12dxva64.dl_",
+      "sha256": "d51459ee7712826935029287aa77f075bdfae4497bbb47b04e554926eeac7fc0",
+      "size": 17165811
+    },
+    {
+      "path": "igd12um32icl.dl_",
+      "sha256": "d07d32bf2e3e982f23496bb0f4e7d76ca290a38024620e5360cba42fd72cda8e",
+      "size": 3383414
+    },
+    {
+      "path": "igd12um32kbl.dl_",
+      "sha256": "ae88c3d2c1a52e167fb50b10b117ed72adca8c47fc26ff65d67ff22670536976",
+      "size": 3356247
+    },
+    {
+      "path": "igd12um64icl.dl_",
+      "sha256": "665c53969af5b0d6b6a3d916f2b33760462547132b2d553bb0b7137516424c29",
+      "size": 3516042
+    },
+    {
+      "path": "igd12um64kbl.dl_",
+      "sha256": "03812073356cdb68ce5d6ee3b8982705c89e414a0d45cbd7811967f45eb24ee1",
+      "size": 3484274
+    },
+    {
+      "path": "igd12umd32.dl_",
+      "sha256": "06755f302e69629e9172f8d5b1fac3737397df0dd64a3313ebcbcf835bae31c5",
+      "size": 54670
+    },
+    {
+      "path": "igd12umd64.dl_",
+      "sha256": "31c55dead5808c23acde5c9c9fd26545b10ae03b3d0c0527cf4d06ba0c21b815",
+      "size": 69483
+    },
+    {
+      "path": "igd9dxva32.dl_",
+      "sha256": "351b67ada6db14deea7916f8149c612eccf44789f4ba5e13db2c62396637281d",
+      "size": 16535042
+    },
+    {
+      "path": "igd9dxva64.dl_",
+      "sha256": "c5fcfc998ed8a165d272348af943748137e576cd0f590f2cd23aa9c15665b80a",
+      "size": 17053836
+    },
+    {
+      "path": "igdail32.dl_",
+      "sha256": "31fa79077f40abe1db498551c0217ee148066d8d125fa92d5290558059c76c77",
+      "size": 67130
+    },
+    {
+      "path": "igdail64.dl_",
+      "sha256": "0cdb39e5b13f6254746b47aa152f62743b181c32ca8b28d31f6c33c61f68e54d",
+      "size": 81959
+    },
+    {
+      "path": "igdde32.dl_",
+      "sha256": "f76cfbbee1d6fe9dba4ddd81b04cfe218978d83be8f7d7ab9b1eed30330f426a",
+      "size": 174945
+    },
+    {
+      "path": "igdde64.dl_",
+      "sha256": "33438f7f26ff8c46bc0d471e3e3ef1508fbad293f482e1e59c0270cef13a091a",
+      "size": 208029
+    },
+    {
+      "path": "igdext32.dl_",
+      "sha256": "115903863f117eb487eac9154561b10f27941694c8a19156ff17747618b91a8a",
+      "size": 112340
+    },
+    {
+      "path": "igdext64.dl_",
+      "sha256": "9ef2d215b2b1ee3c76a7b3cc0f44035c7316091b7a4b4a93f323e0a3b6b443de",
+      "size": 138029
+    },
+    {
+      "path": "igdfcl32.dl_",
+      "sha256": "2dbc68e7409747711d9fa6818bacdfe3660b0e8c12501a25dde5c95ac2aead9e",
+      "size": 286950
+    },
+    {
+      "path": "igdfcl64.dl_",
+      "sha256": "c3e0bf05c159445a5dc3104d64f9a786386634d3b6e2fb7603b75efcaa4c91e2",
+      "size": 315905
+    },
+    {
+      "path": "igdgmm32.dl_",
+      "sha256": "61d8ffc6b886bf1794da8b05ff91372013ea30a1c0ab1689b1db7a4502110da2",
+      "size": 474221
+    },
+    {
+      "path": "igdgmm64.dl_",
+      "sha256": "f06f164c9374eea6c130512b640934382b5a2e7560a269eb3f8a0e286e14865f",
+      "size": 479434
+    },
+    {
+      "path": "igdinfo32.dl_",
+      "sha256": "90ae13dad72fd2f67c986b7c5ebbe4f93831556b32f219f9d70904fa466e5c59",
+      "size": 70553
+    },
+    {
+      "path": "igdinfo64.dl_",
+      "sha256": "3d42602921335339e9b2d49e175f96deed43d33399396d77de6629b16689bdb5",
+      "size": 80687
+    },
+    {
+      "path": "igdkmd64.sy_",
+      "sha256": "d1019fde482e0d4b2ddde4f0536a7142edb087f1caea1bce51a9fb581541ba8d",
+      "size": 11858668
+    },
+    {
+      "path": "igdkmdn64.sy_",
+      "sha256": "ab37a935f899ee16ce0188d29707ee6c528f558ccdded01662c9dfbbd980ff10",
+      "size": 12038809
+    },
+    {
+      "path": "igdlh.cat",
+      "sha256": "232235953547c79a7f40d6b02544f47f9dee57988ebd8f7e7649d4bee8405fea",
+      "size": 7769299
+    },
+    {
+      "path": "igdmd32.dl_",
+      "sha256": "72144b026b9778bb280bb453f128f120186141eb1bb6e035fb21cb50020cf68b",
+      "size": 1247366
+    },
+    {
+      "path": "igdmd64.dl_",
+      "sha256": "7b05185257dec24158642d70abe03e37cccdf6047f283dc5dc666feaa42cbb18",
+      "size": 1504991
+    },
+    {
+      "path": "igdml32.dl_",
+      "sha256": "c44cbbfb225e1a645070e66a88fb3fe4798cc2797eb4436b500c1880dd072087",
+      "size": 373156
+    },
+    {
+      "path": "igdml64.dl_",
+      "sha256": "0e35b83a4390af17798959fd7b774f41bb395fe5bb3aba427f923ca6e5616946",
+      "size": 478169
+    },
+    {
+      "path": "igdrcl32.dl_",
+      "sha256": "9380c28498bf9357fee39729dcc4f621217fdf8f9d76a960082b61b7e892293e",
+      "size": 1276173
+    },
+    {
+      "path": "igdrcl64.dl_",
+      "sha256": "188e68f03adc20d168d426e8e5da321134b598a92b76b2508b113c489fa17c6c",
+      "size": 1486726
+    },
+    {
+      "path": "igdumdim32.dl_",
+      "sha256": "7bd8b82d923de686a68862811c33f3bab9c3a9e5476991a3d24bb352cb5da0af",
+      "size": 487248
+    },
+    {
+      "path": "igdumdim64.dl_",
+      "sha256": "7c5ad55ee040a911ffddf4e419c28011c22d66e9de8384dbc39e3200cd7b5b09",
+      "size": 533062
+    },
+    {
+      "path": "igfx11cmrt32.dl_",
+      "sha256": "17cf279120db1315d1629a2dc1100d054faa06bd1e5a9ee14a71d5e848b3c7f1",
+      "size": 86479
+    },
+    {
+      "path": "igfx11cmrt64.dl_",
+      "sha256": "776074c5868feeff8660e4b4694e53b45481f45506d9b291cac7e974e5c093ad",
+      "size": 104481
+    },
+    {
+      "path": "igfxcmrt32.dl_",
+      "sha256": "107d35ba249924b80cef6ee09a90d11030603e8c6c68650c6f1e2303255082b7",
+      "size": 85963
+    },
+    {
+      "path": "igfxcmrt64.dl_",
+      "sha256": "1e953c15d4de5ebbafd711b5bbc54f7251e4cc27b7a8ce2b579f3ae2780db26a",
+      "size": 103386
+    },
+    {
+      "path": "igfxCUIService.exe",
+      "sha256": "d40cf0d0a87a16e4691fb1988dca02ab5212e631c2d57db888159aa8f429092e",
+      "size": 400432
+    },
+    {
+      "path": "igfxCUIServiceN.exe",
+      "sha256": "2ca9dbf55d0165351ed3c4f849c04cca0d35e27dc6863ff86202c12b9353b808",
+      "size": 399920
+    },
+    {
+      "path": "igfxCUIServicePS.dl_",
+      "sha256": "a583c3f5665f733148889d4f00643907ad1a5243ca5a1adc6de08d6d64373a0d",
+      "size": 171032
+    },
+    {
+      "path": "igfxCUIServicePSN.dl_",
+      "sha256": "33f54a1643672aac3d28e16b6309b3b47cd23ed8f9f442b0ed75bd00288af4e9",
+      "size": 171038
+    },
+    {
+      "path": "igfxDH.dl_",
+      "sha256": "87bd1a0fb6f53bf2a4ad37fdb9664c6eb30c172f1e2fba14f5994972ff7af02a",
+      "size": 415138
+    },
+    {
+      "path": "igfxDHN.dl_",
+      "sha256": "2d5f04d9764da9a724a70170c0f54ff7f858bf172ad10e8caf1287af5c19d93e",
+      "size": 411110
+    },
+    {
+      "path": "igfxDI.dl_",
+      "sha256": "9debfb965c0af787e47e69f7f795c556f1b2be94de663b045b4f06f1703200c2",
+      "size": 220488
+    },
+    {
+      "path": "igfxDIN.dl_",
+      "sha256": "0a922db61fcef44e9a3210df89762d7fea2f273b24b7adf545988aa42ef9e8f3",
+      "size": 192334
+    },
+    {
+      "path": "igfxEM.exe",
+      "sha256": "ed4a5f335a3f1a6ade82a60e4de98c338083af0b6c3b5fd5e275d14a6754d605",
+      "size": 771160
+    },
+    {
+      "path": "igfxEMN.exe",
+      "sha256": "46c4112d6e2ff4c6199cd60b8ad00fc17d99c72a90d90aa9531263a87830865e",
+      "size": 765016
+    },
+    {
+      "path": "igfxexps.dl_",
+      "sha256": "b97cf3e5ba37ebe5734580e5a6ec6c60d2058a49fdaa519d690b3f80f0529472",
+      "size": 17371
+    },
+    {
+      "path": "igfxexps32.dl_",
+      "sha256": "c74c4f8a4f1df40fb0f3bf9eac09342f60369cef8e860765d6cf17e34d615afb",
+      "size": 18492
+    },
+    {
+      "path": "igfxext.exe",
+      "sha256": "e8af6c8ebfc2fd6e57ce73e92287b4e0409258ad14045ab3b81cfbffe259a6a9",
+      "size": 343640
+    },
+    {
+      "path": "igfxextN.exe",
+      "sha256": "f9a5bed823f5afc852e6c7a26cac30f9db02be1e82a1f3f1a4c9c5b2bf3b8b12",
+      "size": 346208
+    },
+    {
+      "path": "igfxLHM.dl_",
+      "sha256": "a3733b6eea3984c31dcffe751be5003b7f0ee816f9136d416f78efadf5894773",
+      "size": 505572
+    },
+    {
+      "path": "igfxSDK.exe",
+      "sha256": "202a6f0647698b11c3bd530d66073f4c5e6cff09476c7a0a731f0b52586e6b14",
+      "size": 991296
+    },
+    {
+      "path": "igfxSDKLib.dl_",
+      "sha256": "b73152feac8b5b1792978748ff41639f919cd8186de0c198d83738e6f87bdd72",
+      "size": 36276
+    },
+    {
+      "path": "iglhxa64.cpa",
+      "sha256": "188f6d0803eb8f89e74adfa05374d8c2dfdf469df59aba5cc9638f32f9a2f639",
+      "size": 1376256
+    },
+    {
+      "path": "iglhxa64.vp",
+      "sha256": "19c2da81bcd2c4bd7edafff9e682fc3a2b121bb8324d8ebd65101e39069f2ac1",
+      "size": 1125
+    },
+    {
+      "path": "iglhxc64_dev.vp",
+      "sha256": "8cd39b46e67f6b6390d9c6f02d478c784314e6c343ca3d7f27025b7e7a385448",
+      "size": 43214
+    },
+    {
+      "path": "iglhxc64.vp",
+      "sha256": "a26a397e22f9e74b1bc2f57244851bbf60e5f8e38b5bdae9cfe9f9c2fafcbdb9",
+      "size": 44194
+    },
+    {
+      "path": "iglhxg64_dev.vp",
+      "sha256": "9f609f131c031b3ad194d9917830abdb2896f2c320f5513547f945f3623c47b7",
+      "size": 43732
+    },
+    {
+      "path": "iglhxg64.vp",
+      "sha256": "882937c6703c5f34d52e07a79470d528c0ea52eb799261682eb7a9c0120004d0",
+      "size": 43760
+    },
+    {
+      "path": "iglhxo64_dev.vp",
+      "sha256": "fea5689d52c8c478ec7ed09d4faa16780c3ea6a41545609457a868600ef37508",
+      "size": 43143
+    },
+    {
+      "path": "iglhxo64.vp",
+      "sha256": "ccc63c8d303f45913340fa342dc1b87566f0546ad812c686f13516d1abadec0b",
+      "size": 42513
+    },
+    {
+      "path": "iglhxs64.vp",
+      "sha256": "d4cd39b91b4609f5238702ccce69490570efbf310a1452dbfeda78f73379d905",
+      "size": 5984
+    },
+    {
+      "path": "iglhxsn64.vp",
+      "sha256": "91ef7e7ee0138822230fa98f96ac662d45cfa46f15a771b3ce91757d16ad0f4c",
+      "size": 6745
+    },
+    {
+      "path": "igvk32.dl_",
+      "sha256": "76216877d13e3686d5e3d00565327f95801c0b8db36cd238420d6053a2b0f8d0",
+      "size": 7278897
+    },
+    {
+      "path": "igvk32.json",
+      "sha256": "596f9b1aa373650ef53509cedb8c494e2879ffffd6a5f8812e50fdc8f07650ee",
+      "size": 135
+    },
+    {
+      "path": "igvk64.dl_",
+      "sha256": "c738f9fd175d620dddd79e7c604da97a8b76059b6eb38349317fdc7faf5ab31d",
+      "size": 7188860
+    },
+    {
+      "path": "igvk64.json",
+      "sha256": "0c6ca9a3cc0139147153304801f81504246a9829fa405f80836ce028b85f3260",
+      "size": 135
+    },
+    {
+      "path": "iigd_dch.inf",
+      "sha256": "4331e25e87e61d57d971fa642b6232f76d16eda5b2d1205cc7c75c9d173b88a8",
+      "size": 657370
+    },
+    {
+      "path": "ImageStabilization.wmv",
+      "sha256": "262ffa4ccc5d44f83c3054f24cd4cb97eeb88cdbd90f9e21d5080ac58d0b2430",
+      "size": 403671
+    },
+    {
+      "path": "intel_gfx_api-x64.dl_",
+      "sha256": "02a6a9ab68fa5fa41b8ba853365dfa4e51ba4814223e08d7b4f2b99cf48aebca",
+      "size": 247623
+    },
+    {
+      "path": "intel_gfx_api-x86.dl_",
+      "sha256": "a0a7c0024ee580ef2271dc495640d43dd7877a6743bb10a6d0b59fe07e8539a7",
+      "size": 195285
+    },
+    {
+      "path": "Intel_OpenCL_ICD32.dl_",
+      "sha256": "0d9511703bc2aeaec7978167b6ce534372855210f096ce6085850a3222b91a75",
+      "size": 174003
+    },
+    {
+      "path": "Intel_OpenCL_ICD64.dl_",
+      "sha256": "1bb8cb43c7e2475de1aac81e6465519605fc5d730d0aeda3c091ec4eac846337",
+      "size": 218351
+    },
+    {
+      "path": "IntelControlLib.dl_",
+      "sha256": "c7510a98164c58ac1bffda4eb3fd515beee699de5b759394e0e6558c7dfe27d3",
+      "size": 200014
+    },
+    {
+      "path": "IntelControlLib32.dl_",
+      "sha256": "cb55c8d1ba98df8bbe43cadeef55ce7aa6c24755a84ec9d809dec7336b273f4d",
+      "size": 174907
+    },
+    {
+      "path": "IntelCpHDCPSvc.exe",
+      "sha256": "fd0b66c24d2931ea6f8444c8301f09bc64ad52e03cbb770727a1b3086e6bbd89",
+      "size": 343104
+    },
+    {
+      "path": "IntelCpHeciSvc.exe",
+      "sha256": "e69bc1710b80c45e5649ebd7491e9223d89e0b1bb168a9c5c3d3d114198ae395",
+      "size": 518744
+    },
+    {
+      "path": "IntelGpuCompiler32.dl_",
+      "sha256": "f7cf1d2fa47e1c79ec9a9874c437c344e79074ffba9503493bf8d3c3de15165d",
+      "size": 64820
+    },
+    {
+      "path": "IntelGpuCompiler64.dl_",
+      "sha256": "e300eb873366d8da7571c2e2a1adf36002101164290267db2d620e90b2b59488",
+      "size": 80932
+    },
+    {
+      "path": "libigc.so",
+      "sha256": "33036ae42c923b7a2ecf315d7286a6b3cb21b53bd45407d06d297d7349503fc0",
+      "size": 41968416
+    },
+    {
+      "path": "libigd12dxva64.so",
+      "sha256": "a1f5740972271ad4c68bf627351c8d96468777d48602a882a3e13479c1f3e2d0",
+      "size": 34118592
+    },
+    {
+      "path": "libigd12um64icl.so",
+      "sha256": "1df65646fc4709247f2e3a61631b4bbaf4b02de1d2d83d4c2f3f68433fe98785",
+      "size": 4909608
+    },
+    {
+      "path": "libigd12um64kbl.so",
+      "sha256": "5819883c6ec3507ab67bf016ef0c1c7e4d5ac755900f397a926c6db6d9e518d8",
+      "size": 4775480
+    },
+    {
+      "path": "libigd12umd64.so",
+      "sha256": "4015e69725532fbad3e653a1d09721abe0eb313e9a6c3fa695c4c3a8ea5a6503",
+      "size": 43208
+    },
+    {
+      "path": "libigdfcl.so",
+      "sha256": "bc62d7512ddd025df9a6f6b940a96179096cc64e4de87163c456be56723f3d63",
+      "size": 986832
+    },
+    {
+      "path": "libigdgmm.so.12",
+      "sha256": "280cc67f53a0ea95306397f7bdab2300343cffa3edc96e953f21df8a96abe1f4",
+      "size": 2288248
+    },
+    {
+      "path": "libLLVM-9.so",
+      "sha256": "fd4cf80945d689dd8ca0478f001982c7421e59cd6acd2ba15a1322791e7544a1",
+      "size": 38566232
+    },
+    {
+      "path": "libmfxhw32.dl_",
+      "sha256": "7ae5cc52ff4decf30d29bf90f91049ee641e5cc1db99d99df84aaa89dd92cfdf",
+      "size": 8296382
+    },
+    {
+      "path": "libmfxhw64.dl_",
+      "sha256": "3309d34cf4690f608db02484fa67044ad5a57c78322744cc917fa951b765907c",
+      "size": 8889588
+    },
+    {
+      "path": "libopencl-clang.so.9",
+      "sha256": "caa0439a1f53f93d0a7b543bfe93881fe5800de45953307632de14b69213f629",
+      "size": 81366600
+    },
+    {
+      "path": "libUniversalAdapter64.so",
+      "sha256": "825e59d86b59a6f7bb4e10984efc3fffb89142cb806cff7a13c246f8188e029e",
+      "size": 505936
+    },
+    {
+      "path": "libwsl_compute_helper.so",
+      "sha256": "071f6b9a95b5ec7b6f87d13867d4ac327e9af2375ae911b696b74a5dd180aa61",
+      "size": 567376
+    },
+    {
+      "path": "LiteDB.dl_",
+      "sha256": "8988138d04073dba83c44a6737771f601e4fe41e385248d33b85f1432de2f2e5",
+      "size": 145997
+    },
+    {
+      "path": "mfx_loader_dll_hw32.dl_",
+      "sha256": "6d2c5e3650a3e569cafd32f8b09173056b27e7a04dbd7009350af7703b5a4077",
+      "size": 309235
+    },
+    {
+      "path": "mfx_loader_dll_hw64.dl_",
+      "sha256": "32e177f0b9c22255c3410eb04d375d9b25f66f7e929458f772fb1346692c2194",
+      "size": 385637
+    },
+    {
+      "path": "mfx_mft_av1hve_32.dl_",
+      "sha256": "d35f183eec98c3177d13121f5b0db3c94a00fcdb8a9207c2c639ae0e0f9dc45c",
+      "size": 1159692
+    },
+    {
+      "path": "mfx_mft_av1hve_32.vp",
+      "sha256": "0a168f18e2711c647499cd377a5e4d18cae16cb4e7e7cacae00e41c95917631a",
+      "size": 76697
+    },
+    {
+      "path": "mfx_mft_av1hve_64.dl_",
+      "sha256": "df851e1af38aa2c62201ee020571738ef9f539a8e7170484bddbbbe99dacbe95",
+      "size": 1336192
+    },
+    {
+      "path": "mfx_mft_av1hve_64.vp",
+      "sha256": "61d9c3e3c9fb5d99fdcc878311bc50d78259bd0fff68f792e0eda91291cc9b97",
+      "size": 13635
+    },
+    {
+      "path": "mfx_mft_encrypt_32.dl_",
+      "sha256": "a91bb58628d2d12a4f46ffba79e9e2982fb7a3650bec50d5232a89df20b964f0",
+      "size": 1096348
+    },
+    {
+      "path": "mfx_mft_encrypt_64.dl_",
+      "sha256": "169f01f8426932e86fa4e96b029f7e537519dcaeea5e7a7aa558f3cbfcd315f4",
+      "size": 1260646
+    },
+    {
+      "path": "mfx_mft_h264ve_32.dl_",
+      "sha256": "d3432fe7e6ed885ffdd94ef04e53cc22b5d5648d68c2785371e4c95859cb5317",
+      "size": 1155426
+    },
+    {
+      "path": "mfx_mft_h264ve_64.dl_",
+      "sha256": "690f6ab7ad22f0f95d536ab09cd2fe13f78d58e0c92b781d254ee2812d7c148e",
+      "size": 1329034
+    },
+    {
+      "path": "mfx_mft_h265ve_32.dl_",
+      "sha256": "9fdfbc3a1c6c91557413af4d8276b7a632b246dbe3c182af2b8365f662b7cd2b",
+      "size": 1160452
+    },
+    {
+      "path": "mfx_mft_h265ve_64.dl_",
+      "sha256": "48cf91ff1435b7285be2d249f75425a02933ad1b737389c648aa715fd9490c8c",
+      "size": 1337700
+    },
+    {
+      "path": "mfx_mft_mjpgvd_32.dl_",
+      "sha256": "6a0803b8614af0c126b240b7fd576b4463edecf350a66d710b25286fe7631700",
+      "size": 1102716
+    },
+    {
+      "path": "mfx_mft_mjpgvd_64.dl_",
+      "sha256": "941b763f61e01401f14b3215a503916aa2652cce494d1c024581ed9d6fedefc9",
+      "size": 1267113
+    },
+    {
+      "path": "mfx_mft_vp9ve_32.dl_",
+      "sha256": "407900dbc9cca38ab9b6f10cd509efed8068bfc7b510abddd2611337ab3bb74b",
+      "size": 1159149
+    },
+    {
+      "path": "mfx_mft_vp9ve_64.dl_",
+      "sha256": "97dd87deba952e74b202ebdd406cad4371f6a5bb3e7cc054e6e7bd412e176ebe",
+      "size": 1335158
+    },
+    {
+      "path": "mfxplugin32_av1e_gacc.dl_",
+      "sha256": "fb91f75d05c2171db1be717f93335d503af0b5923dfa693c1c5363518e31b0b9",
+      "size": 2231758
+    },
+    {
+      "path": "mfxplugin32_hw.dl_",
+      "sha256": "a594660448c7ce975dbf523c03736d649e532557481b666de24e4448fedfd63b",
+      "size": 5377920
+    },
+    {
+      "path": "mfxplugin64_av1e_gacc.dl_",
+      "sha256": "4c3df336e5a49108f5dcd2a5d807e639048dcaa43efdfb4ed5174f1737e36720",
+      "size": 3069287
+    },
+    {
+      "path": "mfxplugin64_hw.dl_",
+      "sha256": "4fbb413feb2fcbb8fc3fba0cc9a30126a38dee8501edf64a9e80ad8732548242",
+      "size": 7710503
+    },
+    {
+      "path": "mj_32.vp",
+      "sha256": "50a7f8c62191482cfb798f7cb0d5d1877fe867f639f168a5ff9fdf4f8b22349e",
+      "size": 71013
+    },
+    {
+      "path": "mj_64.vp",
+      "sha256": "6c62fcdbb79638e3ffc4f4fdd1195b449ead9f665440eaaec38f626306b169c1",
+      "size": 12955
+    },
+    {
+      "path": "MSHdaDac.inf",
+      "sha256": "09a120f4e3b57c42450941f6f16f7f3d803a321f19be09bc406e788099dfca9a",
+      "size": 13074
+    },
+    {
+      "path": "Newtonsoft.Json.dl_",
+      "sha256": "eeb194189ce6a7d34b154542f7f1b10e1e4a6dc30eed8d2fb9382d87d8e5401c",
+      "size": 265847
+    },
+    {
+      "path": "NLog.config",
+      "sha256": "b4a9a57cbf54c0395d71f84b6b35c389b3ca64c9bc19d3e42b9a71572cb9fb2c",
+      "size": 1953
+    },
+    {
+      "path": "NLog.dl_",
+      "sha256": "b4260a47cfb8d7098f10fb6f64cc41227d75af31a9c605d95319f75b158d22ab",
+      "size": 322944
+    },
+    {
+      "path": "OneApp.IGCC.COMLibrary.dl_",
+      "sha256": "8344d21567e8c4cc9da3c3ec4b6a1a9f7fc727c6ea1b6cae33ced07b944c44fd",
+      "size": 9479
+    },
+    {
+      "path": "OneApp.IGCC.CommunicationService.dl_",
+      "sha256": "5968f684953661fd39c64ccd4a960272deb4fe81217200946a1e5e182b217d49",
+      "size": 11772
+    },
+    {
+      "path": "OneApp.IGCC.CoreLibrary.dl_",
+      "sha256": "c1ffca1d68778cb1e3be1dce44e546b41096f7ff6fa02409f46a1f26a740d82a",
+      "size": 301118
+    },
+    {
+      "path": "OneApp.IGCC.WinService.exe",
+      "sha256": "d5f439396a0ab47ae047359cfa534fb3f86483a13a794022c3331a90d2eb2625",
+      "size": 84064
+    },
+    {
+      "path": "OneApp.IGCC.WinService.exe.config",
+      "sha256": "1680a867887365054562cadfd0dae3c3486b10eb710ccd4d5ad02e7bd7387a53",
+      "size": 1673
+    },
+    {
+      "path": "opencl-clang32.dl_",
+      "sha256": "b15aa2dd7ecf5dd006a7097254fe181b0cf329e2dfb8e6b1b8aca624d3576ef9",
+      "size": 20666653
+    },
+    {
+      "path": "opencl-clang64.dl_",
+      "sha256": "6d9537e6a9441e212bf6a6b229779c14df88af5798a2fc60bcb0492a1b96c31a",
+      "size": 26718174
+    },
+    {
+      "path": "OSSCOPYRIGHT.txt",
+      "sha256": "042b24080b1c5b3793fbef6bea22d2b749abb6556a757621e68d4dd16f4425cc",
+      "size": 1372
+    },
+    {
+      "path": "UniversalAdapter32.dl_",
+      "sha256": "3361a59c31cdbea9b23de213527a75b3b7faed7139553cf374665c0cb5c2450c",
+      "size": 142591
+    },
+    {
+      "path": "UniversalAdapter64.dl_",
+      "sha256": "c20c391008f3f44b8433d2e8fd4c1f013a6c6658dd0039e6e1d9a42b2965ec97",
+      "size": 166535
+    },
+    {
+      "path": "vp9e_32.vp",
+      "sha256": "2844ac64714e342737480b53e15535713d5bd1410cd85374c4f0df2379dd64f3",
+      "size": 76672
+    },
+    {
+      "path": "vp9e_64.vp",
+      "sha256": "9f2f92b6a5b533d988d129795ca89ce77f934251b8b552073ac99f215a54685f",
+      "size": 13646
+    },
+    {
+      "path": "vpl_dispatcher_32.dl_",
+      "sha256": "1aeb4073093394bed8f0fae690346cbc1ccfafab332dd62be708b30c2a21689a",
+      "size": 127363
+    },
+    {
+      "path": "vpl_dispatcher_64.dl_",
+      "sha256": "1950aefe26983e8e4fe85cb82fb1bc8bde6a8ef54a93e1f8424648296d159f06",
+      "size": 146275
+    },
+    {
+      "path": "vulkan-1-32.dl_",
+      "sha256": "ba8ce3ef51decbf487aa3088fcaf557b1b6d12036d570a8d3c6cc7d4bf1ebf4f",
+      "size": 322995
+    },
+    {
+      "path": "vulkan-1-64.dl_",
+      "sha256": "5e378d5f6b30e8e3da2a3ddf1344ff5b990e40d8512c223aa4d8f9651a01fb7c",
+      "size": 388454
+    },
+    {
+      "path": "vulkaninfo-32.exe",
+      "sha256": "5a5d2259d19b49eabc5e08b65d0399326d1c8cc842f878b6bc90d09f0c62d20e",
+      "size": 1526360
+    },
+    {
+      "path": "vulkaninfo-64.exe",
+      "sha256": "10e34a989828ead0cb903a5eda1e4f7d9524498fcdfbe727342d2e44b38e0ffc",
+      "size": 1969752
+    },
+    {
+      "path": "VulkanRT-EULA.txt",
+      "sha256": "d947013227e575393554f7e268a82c140fe9fd187d8e45357ae333904b083dad",
+      "size": 4008
+    },
+    {
+      "path": "ze_intel_gpu64.dl_",
+      "sha256": "9c77b107cb577d6e97d80cff4b20c09885e130941d14d47c5614d4a8c74f9292",
+      "size": 1400209
+    },
+    {
+      "path": "ze_loader.dl_",
+      "sha256": "eec094e7cf0ae5ab388bf1175ed2fff93bb1d9ece72232a1e9328c6e483e44c1",
+      "size": 160629
+    },
+    {
+      "path": "ze_tracing_layer.dl_",
+      "sha256": "e8a08e11f940ce51f0dee38cf745b43c246699c79a7866cc463022d155afd1a1",
+      "size": 180623
+    },
+    {
+      "path": "ze_validation_layer.dl_",
+      "sha256": "2731273edfe124803e2aa41d8c9a90441552e9b23bcf950694370e53f78278bf",
+      "size": 63562
+    }
+  ],
+  "stats": {},
+  "notes": "Package = the zip's Graphics folder; the license text is the zip's top-level license.txt (hash checked against the download). Redistribution is conditional: Appendix B lets an OEM, IHV or ISV distribute the object code only embedded in or for an Intel-based product under an end-user license at least as restrictive as Appendix A, and the end-user terms (Appendix A) forbid distributing it; whether Transom qualifies is unresolved, as is use under another OS. Binaries are cab-compressed individually (.dl_/.sy_); the files Transom runs (igdkmd64.sys, igd10iumd64.dll, ...) are their expanded forms."
+}

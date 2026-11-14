@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "id": "intel-wifi-netwtw06-20.70.3.3",
+  "name": "Intel Wi-Fi driver Netwtw06 20.70.3.3 (Wireless-AC 8260 / 8265 family)",
+  "version": "20.70.3.3",
+  "date": "2017-04-01",
+  "origin": "vendor",
+  "verification": "team",
+  "tested": [
+    {
+      "machine": "Lenovo Yoga 900 (Wireless-AC 8260)",
+      "transom": "1.231",
+      "capabilities": [
+        "wifi"
+      ],
+      "note": "Per the Transom team; the repo docs record the start and firmware load on a simulated 8260 (1.231)."
+    }
+  ],
+  "open_source": false,
+  "license": "Intel proprietary (the package carries no license text)",
+  "use": "unresolved",
+  "redistribution": "unresolved",
+  "hardware": [
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_00048086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_00108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_00128086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_00448086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_00508086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_01108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_01308086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_01328086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_01508086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_01F08086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_02508086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_08108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_08508086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_09108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_09308086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_09508086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_10108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_10128086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_10508086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_10B08086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_11108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_11308086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_11328086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_11508086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_80108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_80508086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_81108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_81308086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_81328086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_81508086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_90108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_90508086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_91108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_91308086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_91328086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_91508086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_B0B08086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_C0108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_C0508086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_C1108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_D0108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F3&SUBSYS_D0508086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24F5&SUBSYS_00108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_00108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_00128086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_00148086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_00508086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_01108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_01308086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_01508086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_08108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_08508086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_09108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_09308086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_09508086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_10108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_10128086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_10148086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_11108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_11308086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_14311A56",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_14321A56",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_3E0119E5",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_3E0219E5",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_80108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_80508086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_81108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_81308086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_90108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_90748086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    },
+    {
+      "id": "PCI\\VEN_8086&DEV_24FD&SUBSYS_91108086",
+      "inf": "netwtw06.inf",
+      "section": "Device.NTamd64.10.0"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=Netwtw06%2020.70.3.3",
+      "unverified": true
+    }
+  ],
+  "files": [
+    {
+      "path": "IntelWifiIhv06.dll",
+      "sha256": "e418abaca399a2eae20ba21f292364c3cf2372c1ad14e52947251497d5867af0",
+      "size": 166912
+    },
+    {
+      "path": "Netwfw06.dat",
+      "sha256": "1dddefa27c1396df6d3f11d3e59a04adc83f09ec0aee51814371b85a1b9f4b37",
+      "size": 2664700
+    },
+    {
+      "path": "netwtw06.inf",
+      "sha256": "fec038a1de9f6cdcc5f59a8bea31108f4c8c5b070f3c7688bafdf1c7ba4e496e",
+      "size": 286448
+    },
+    {
+      "path": "Netwtw06.sys",
+      "sha256": "1d8ce74ed07fa3aabfaaaeb449a8401f9bcad6fe93d31fc4eb11835cd978785d",
+      "size": 8803328
+    }
+  ],
+  "stats": {},
+  "notes": "Whole DriverStore package netwtw06.inf_amd64_c5f16d20642e3070, copied from the team PC's Windows install. The download location is Microsoft Update Catalog's search for this version; nobody has downloaded the original, so no hash and unverified. Intel also publishes Wi-Fi driver bundles at https://www.intel.com/content/www/us/en/download/19351/windows-10-and-windows-11-wi-fi-drivers-for-intel-wireless-adapters.html (not checked)."
+}

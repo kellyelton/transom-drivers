@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "id": "netkvm-100.103.104.30200",
+  "name": "VirtIO Ethernet Adapter (NetKVM), virtio-win 0.1.302",
+  "version": "100.103.104.30200",
+  "date": "2026-07-22",
+  "origin": "vendor",
+  "verification": "team",
+  "tested": [
+    {
+      "machine": "QEMU virtio-net",
+      "transom": "1.200",
+      "capabilities": [
+        "ethernet"
+      ]
+    }
+  ],
+  "open_source": true,
+  "repo": "https://github.com/virtio-win/kvm-guest-drivers-windows",
+  "license": "BSD-3-Clause",
+  "license_url": "https://opensource.org/license/bsd-3-clause",
+  "license_sha256": "accd84cb35eff899d619ff40e6fea8074305cdf0e7191db71a5d9c3a015e3b02",
+  "use": "permitted",
+  "redistribution": "permitted",
+  "hardware": [
+    {
+      "id": "PCI\\VEN_1AF4&DEV_1000&SUBSYS_00011AF4&REV_00",
+      "inf": "netkvm.inf",
+      "section": "NetKVM.NTamd64.10.0...16299"
+    },
+    {
+      "id": "PCI\\VEN_1AF4&DEV_1041&SUBSYS_11001AF4&REV_01",
+      "inf": "netkvm.inf",
+      "section": "NetKVM.NTamd64.10.0...16299"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/kellyelton/transom-drivers/releases/download/catalog-1/netkvm-100.103.104.30200.zip",
+      "sha256": "aecab6d121b5422a8f5c6565b07b35898b9bde6a92e6e6ea105f8e72e9122cae",
+      "size": 224226
+    }
+  ],
+  "extract": {
+    "type": "zip",
+    "kept": [
+      {
+        "path": "LICENSE.txt",
+        "sha256": "accd84cb35eff899d619ff40e6fea8074305cdf0e7191db71a5d9c3a015e3b02"
+      },
+      {
+        "path": "netkvm.cat",
+        "sha256": "b4c5c6c70df75777b1e5a44df8fa67bf0f2a85c016cf93f3113c0b3ab01ebc90"
+      },
+      {
+        "path": "netkvm.inf",
+        "sha256": "60f7c0ff6815b6edc7a8acf2b46b83c4605ddfbacbcd74b15c9d9653159a3a45"
+      },
+      {
+        "path": "netkvm.sys",
+        "sha256": "1b6f8892d39efe28c1a6b20dcc92b76f7dede567d9628fa8d6cebb62d33daf4c"
+      },
+      {
+        "path": "netkvmp.exe",
+        "sha256": "d0188e6abc35693776930a757c377067b3738d049a51ec317dbfe5214f5fef74"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "accd84cb35eff899d619ff40e6fea8074305cdf0e7191db71a5d9c3a015e3b02",
+      "size": 1598
+    },
+    {
+      "path": "netkvm.cat",
+      "sha256": "b4c5c6c70df75777b1e5a44df8fa67bf0f2a85c016cf93f3113c0b3ab01ebc90",
+      "size": 12489
+    },
+    {
+      "path": "netkvm.inf",
+      "sha256": "60f7c0ff6815b6edc7a8acf2b46b83c4605ddfbacbcd74b15c9d9653159a3a45",
+      "size": 18828
+    },
+    {
+      "path": "netkvm.sys",
+      "sha256": "1b6f8892d39efe28c1a6b20dcc92b76f7dede567d9628fa8d6cebb62d33daf4c",
+      "size": 198296
+    },
+    {
+      "path": "netkvmp.exe",
+      "sha256": "d0188e6abc35693776930a757c377067b3738d049a51ec317dbfe5214f5fef74",
+      "size": 203416
+    }
+  ],
+  "stats": {},
+  "notes": "Windows 11 / Server 2025 build (virtio-win NetKVM\\2k25\\amd64). The same files come from virtio-win-0.1.302.iso (https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.302-1/virtio-win-0.1.302.iso, 877373440 bytes, sha256 303f7ae40dad495d6ae474fdc571df58958a4dbc5c37a522d80f9a203867949d, downloaded and hashed 2026-11-13). The catalog-1 asset zip repackages them unchanged (the ISO is 877 MB). The repository is private, so the asset needs a signed-in download until it is public."
+}

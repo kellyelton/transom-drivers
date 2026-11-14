@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "viogpudo-100.103.104.30200",
+  "name": "VirtIO GPU DOD (display-only), virtio-win 0.1.302",
+  "version": "100.103.104.30200",
+  "date": "2026-07-22",
+  "origin": "vendor",
+  "verification": "team",
+  "tested": [
+    {
+      "machine": "QEMU virtio-vga",
+      "transom": "1.191",
+      "capabilities": [
+        "display"
+      ]
+    }
+  ],
+  "open_source": true,
+  "repo": "https://github.com/virtio-win/kvm-guest-drivers-windows",
+  "license": "BSD-3-Clause",
+  "license_url": "https://opensource.org/license/bsd-3-clause",
+  "license_sha256": "accd84cb35eff899d619ff40e6fea8074305cdf0e7191db71a5d9c3a015e3b02",
+  "use": "permitted",
+  "redistribution": "permitted",
+  "hardware": [
+    {
+      "id": "PCI\\VEN_1AF4&DEV_1050&SUBSYS_11001AF4&REV_01",
+      "inf": "viogpudo.inf",
+      "section": "VioGpu.NTamd64.10.0...16299"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/kellyelton/transom-drivers/releases/download/catalog-1/viogpudo-100.103.104.30200.zip",
+      "sha256": "696da5f8f1108eb0fd74294ef82745fc3093ba35a1fb9639eba7d545cc252940",
+      "size": 75436
+    }
+  ],
+  "extract": {
+    "type": "zip",
+    "kept": [
+      {
+        "path": "LICENSE.txt",
+        "sha256": "accd84cb35eff899d619ff40e6fea8074305cdf0e7191db71a5d9c3a015e3b02"
+      },
+      {
+        "path": "viogpudo.cat",
+        "sha256": "f6803e01dedd4168a8fa0e4caa11fa93b4150735c4d32f4a9369c9758e57ae20"
+      },
+      {
+        "path": "viogpudo.inf",
+        "sha256": "be012d9ed48645bb966483bf15e70cdf5eb0f84bd3bbeb1f4d4aec2d096d5c0d"
+      },
+      {
+        "path": "viogpudo.sys",
+        "sha256": "adb624a34dc1b6519af0601268af7c1e3e8972c16c69467f6e3144e66b67f5e1"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "accd84cb35eff899d619ff40e6fea8074305cdf0e7191db71a5d9c3a015e3b02",
+      "size": 1598
+    },
+    {
+      "path": "viogpudo.cat",
+      "sha256": "f6803e01dedd4168a8fa0e4caa11fa93b4150735c4d32f4a9369c9758e57ae20",
+      "size": 11874
+    },
+    {
+      "path": "viogpudo.inf",
+      "sha256": "be012d9ed48645bb966483bf15e70cdf5eb0f84bd3bbeb1f4d4aec2d096d5c0d",
+      "size": 2889
+    },
+    {
+      "path": "viogpudo.sys",
+      "sha256": "adb624a34dc1b6519af0601268af7c1e3e8972c16c69467f6e3144e66b67f5e1",
+      "size": 150680
+    }
+  ],
+  "stats": {},
+  "notes": "viogpudo\\w11\\amd64. The same files come from virtio-win-0.1.302.iso (https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.302-1/virtio-win-0.1.302.iso, 877373440 bytes, sha256 303f7ae40dad495d6ae474fdc571df58958a4dbc5c37a522d80f9a203867949d, downloaded and hashed 2026-11-13). The catalog-1 asset zip repackages them unchanged (the ISO is 877 MB). The repository is private, so the asset needs a signed-in download until it is public."
+}

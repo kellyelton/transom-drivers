@@ -1,0 +1,31 @@
+; sample
+[Version]
+Signature="$Windows NT$"
+DriverVer=01/02/2024,1.2.3.4
+
+[Manufacturer]
+%Acme%=Acme,NTamd64,NTamd64.10.0...19041,NTx86,NTamd64.10.0...19041.more
+%Other%=Other
+
+[Acme.NTamd64]
+%Dev1%=Inst1,PCI\VEN_1234&DEV_0001 ; trailing comment
+%Dev2%=Inst1,pci\ven_1234&dev_0002&subsys_00011234, PCI\CC_0300
+
+[Acme.NTamd64.10.0...19041]
+%Dev3%=Inst1,PCI\VEN_1234&DEV_0003
+
+[Acme.NTx86]
+%Dev4%=Inst1,PCI\VEN_1234&DEV_0004
+
+[Other]
+%Dev5%=Inst2, \
+    ROOT\%Root%
+
+[Strings]
+Acme="Acme"
+Other = "Other"
+Root = "SAMPLE"
+Dev1="x"
+
+[Acme.NTamd64.10.0...19041.more]
+%Dev6% = Inst1 ,,  PCI\VEN_1234&DEV_0006 ; empty reserved column

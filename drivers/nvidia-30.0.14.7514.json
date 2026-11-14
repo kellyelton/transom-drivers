@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "id": "nvidia-30.0.14.7514",
+  "name": "NVIDIA GeForce display driver 475.14 (DCH)",
+  "version": "30.0.14.7514",
+  "date": "2024-06-10",
+  "origin": "vendor",
+  "verification": "untested",
+  "tested": [],
+  "open_source": false,
+  "license": "NVIDIA Software License Agreement (no license text in the local copy)",
+  "use": "unresolved",
+  "redistribution": "unresolved",
+  "hardware": [
+    {
+      "id": "PCI\\VEN_10DE&DEV_0FC0",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_0FC1",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_0FC2",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_0FC6",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_0FC8",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_0FC9",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1001",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1004",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1005",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1007",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1008",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_100A",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_100C",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1180",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1183",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1184",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1185",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1187",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1188",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1189",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_118E",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1193",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1195",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_11C0",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_11C2",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_11C3",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_11C4",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_11C5",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_11C6",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_11C8",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_11CB",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1280",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1281",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1282",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1284",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1286",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1287",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1288",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_1289",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    },
+    {
+      "id": "PCI\\VEN_10DE&DEV_128B",
+      "inf": "nv_dispi.inf",
+      "section": "NVIDIA_Devices.NTamd64.10.0...17098"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://us.download.nvidia.com/Windows/475.14/475.14-desktop-win10-win11-64bit-international-dch-whql.exe",
+      "sha256": "d602d0a5635ed492261dd8df34f4d159b36289cbdcb1c88b9f3b0c7947184ff5",
+      "size": 740751984
+    }
+  ],
+  "extract": {
+    "type": "exe-7z",
+    "subfolder": "Display.Driver",
+    "kept": [
+      {
+        "path": "nv_dispi.inf",
+        "sha256": "5f0e0b5522bca77d01027a97d58e2e96fc96914682e9a56d8ddcc3c9be0ffabd"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "nv_dispi.inf",
+      "sha256": "5f0e0b5522bca77d01027a97d58e2e96fc96914682e9a56d8ddcc3c9be0ffabd",
+      "size": 778508
+    },
+    {
+      "path": "nvlddmkm.sys",
+      "sha256": "3de7905ed333b899c5c1a514cb00eb14733d08acf90493b3f82874fd6b50f1d7",
+      "size": 37776536
+    }
+  ],
+  "stats": {},
+  "notes": "files lists only the two files kept on the team PC (nv_dispi.inf, whose hash equals the one inside the download, and nvlddmkm.sys expanded from nvlddmkm.sy_); the full package also has the .cat and user-mode files. The team has not run this driver on real hardware to a verified result."
+}
